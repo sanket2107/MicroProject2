@@ -1,0 +1,181 @@
+.main{
+    display:flex;
+    flex-direction:row;
+    height:700px;
+   
+  }
+  .parent{
+    background-color:white;
+    width:800px;
+    margin-left: 15px;
+    
+  }
+  .child{
+    background-color:white;
+    width:100px;
+  }
+  
+    .second{
+      display:flex;
+      flex-direction:row;
+      align-items:center;
+      justify-content:space-around;
+      justify-content:space-between;
+  
+    }
+    .second>div{
+      padding:20px;
+      margin:10px;
+      width:800px;
+      
+    }
+  
+   .ima{
+      flex-shrink: 1.7;
+    }
+    .write{
+      background-color:#E5D8FF;
+      height:200px;
+      width: 200px;
+      flex-shrink: 1;
+      border-radius:20px;
+      
+    }
+  
+  .flex-con{
+      display:flex;
+      
+    }
+    .flex-con>div{
+      padding:20px;
+      margin:30px;
+      width:600px;
+      height:30px;
+      border-radius:11px;
+      
+    }
+    
+    .fir{
+      background-color:#929DFF;
+      font-size:10px;
+      color:white;
+    }
+    .sec{
+      background-color:#734CF2;
+      font-size:10px;
+      color:white;
+    
+    }
+    .thi{
+      background-color:#D288FF;
+      font-size:10px;
+      color:white;
+    
+    }
+    .for{
+      background-color:#000000;
+      font-size:10px;
+      color:white;
+    
+    }
+  
+  .icon{
+      flex-shrink: 4;
+      display:flex;
+      flex-direction:column;
+      position: sticky;
+      top: 100px;
+      bottom: 350px;
+      right: 0px;
+      
+      
+    }
+    .icon > div{
+      padding: 2px;
+      margin: 2px;
+      border: solid #000000;
+      border-radius:11px;
+    }
+  
+  .last{
+    display:flex;
+    background-color:#483EFF;
+    height:300px;
+    border-radius:21px;
+    
+  
+  }
+  .last>div{
+      padding:20px;
+      margin:10px;
+      width:800px;
+      border-radius:21px;
+    }
+  .your{
+      background-color:#FFFFFF;
+    }
+  .con{
+      display:flex;
+      flex-direction:column;
+    }
+    .con>div{
+      padding:20px;
+      margin:10px;
+      width:130px;
+     
+      border: 1px solid white;
+    }
+    
+    .inf{
+      background-color:#BCE0F6;
+      color: black;
+      border-radius: 21px;
+    ;
+    }
+    .book ,.set{
+      border-radius: 21px;
+    }
+
+    .heading{
+        display:grid;
+        grid-template-columns:0.1fr 1fr 0.1fr;
+        background-color:#6F6AF7;
+        top:0;
+        width:100%;
+        height:40px;
+        position:fixed;
+        text-align:center;
+        color: white;
+        
+        
+      }
+      .txt{
+        word-spacing: 1.7em;
+        margin-top:12px;
+      }
+
+      .dapper,.dapa{
+        margin-top:12px;
+      }
+
+      .box{
+        padding:10px;
+        margin:10px;
+        background-color:black;
+        width:90px;
+        height:30px;
+        color:white;
+        text-align:center;
+        box-align:right;
+      }
+
+      .searchid{
+        border-radius: 63px;
+        color:#9F9F9F;
+        ;
+      }
+      .img_foot{
+        position: fixed;
+        top: 300px;
+        left: 730px;
+      }
